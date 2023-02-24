@@ -1,0 +1,21 @@
+{
+    "name": "admin/local.blog.com",
+    "description": "PHP and MySQL Blog",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Admin\\LocalBlogCom\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Trifonix",
+            "email": "trifonix@rocketmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.6"
+    }
+}
